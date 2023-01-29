@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">GreedCity</string>
+    <string name="cur_question">Хотите ли вы построить парк?</string>
+    <string name="money_box">Деньги: 5/10</string>
+    <string name="people_box">Общество: 5/10</string>
+    <string name="road_box">Дороги: 5/10</string>
+    <string name="eco_box">Экология: 5/10</string>
+    <string name="left_box">Построить</string>
+    <string name="right_box">Сократить бюджет</string>
+</resources>

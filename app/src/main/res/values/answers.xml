@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="left1">
+        <item name="title">"Построить парк"</item>
+        <item name="money">-1</item>
+        <item name="people">1</item>
+        <item name="road">0</item>
+        <item name="eco">1</item>
+    </array>
+    <array name="right1">
+        <item name="title">"Сократить расходы"</item>
+        <item name="money">1</item>
+        <item name="people">-1</item>
+        <item name="road">0</item>
+        <item name="eco">-1</item>
+    </array>
+    <array name="left2">
+        <item name="title">"Расширить дорогу"</item>
+        <item name="money">-1</item>
+        <item name="people">1</item>
+        <item name="road">1</item>
+        <item name="eco">-1</item>
+    </array>
+    <array name="right2">
+        <item name="title">"Сократить расходы"</item>
+        <item name="money">1</item>
+        <item name="people">-1</item>
+        <item name="road">-1</item>
+        <item name="eco">1</item>
+    </array>
+</resources>
