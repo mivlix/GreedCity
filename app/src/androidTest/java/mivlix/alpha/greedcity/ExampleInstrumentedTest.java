@@ -1,4 +1,4 @@
-package com.example.greedcity;
+package mivlix.alpha.greedcity;
 
 import android.content.Context;
 
