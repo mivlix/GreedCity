@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Budget: 5/10"
+        android:text="Budget: 5"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Happiness: 5/10"
+        android:text="Happiness: 5"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Traffic: 5/10"
+        android:text="Traffic: 5"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Ecology: 5/10"
+        android:text="Ecology: 5"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     <ScrollView
