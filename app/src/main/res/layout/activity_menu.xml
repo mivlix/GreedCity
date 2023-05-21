@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@mipmap/city_background">
+
+    <TextView
+        android:id="@+id/best"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Population highscore: 1.6m"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+</LinearLayout>

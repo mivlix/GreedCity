@@ -10,8 +10,8 @@ android {
         applicationId "mivlix.alpha.greedcity"
         minSdk 24
         targetSdk 33
-        versionCode 2000
-        versionName '2.0'
+        versionCode 2002
+        versionName '2.0_pre2'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -23,8 +23,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_16
+        targetCompatibility JavaVersion.VERSION_16
     }
 
     buildFeatures {
