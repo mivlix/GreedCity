@@ -10,8 +10,8 @@ android {
         applicationId "mivlix.alpha.greedcity"
         minSdk 24
         targetSdk 33
-        versionCode 2000
-        versionName '2.0'
+        versionCode 2002
+        versionName '2.0_pre2'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
