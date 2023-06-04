@@ -1,6 +1,7 @@
 package mivlix.alpha.greedcity;
 
 import android.content.SharedPreferences;
+import android.util.Log;
 
 public class RecordManager {
     public final static String GAME = "LAST_GAME";
@@ -13,9 +14,12 @@ public class RecordManager {
 
     public void setHighscore(int pop) {
         prefs.edit().putInt(HIGHSCORE, pop).apply();
+        Log.i("high", "set, " + pop);
     }
 
     public int getHighscore() {
-        return prefs.getInt(HIGHSCORE, 0);
+        int highscore = prefs.getInt(HIGHSCORE, 0);
+        Log.i("high", "get, " + highscore);
+        return highscore;
     }
 }

@@ -1,6 +1,7 @@
 package mivlix.alpha.greedcity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,6 +30,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     private void loadHighscore() {
+        Log.i("high", "loaded");
         binding.best.setText("Рекорд: " + recorder.getHighscore() + " чел.");
     }
 }

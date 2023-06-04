@@ -5,8 +5,11 @@ import static mivlix.alpha.greedcity.RecordManager.GAME;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.SavedStateHandle;
+import androidx.lifecycle.ViewModel;
 
 import mivlix.alpha.greedcity.databinding.ActivityGameBinding;
 import mivlix.alpha.greedcity.databinding.ButtonBinding;
@@ -65,6 +68,7 @@ public class GameActivity extends AppCompatActivity {
         buttonBinding.getRoot().setText("Выйти в меню");
         buttonBinding.getRoot().setOnClickListener(v -> finish());
         binding.answers.addView(buttonBinding.getRoot());
+        writeHighscore();
     }
 
     private void setEcologicalEnding() {
@@ -90,10 +94,10 @@ public class GameActivity extends AppCompatActivity {
     private void setVictory() {
         binding.desc.setText("Ваш город достиг отметки в 100 млн жителей! Как такое возможно?!");
         fillRestartButton();
-        writeHighscore();
     }
 
     private void writeHighscore() {
+        Log.i("high", "setting, " + game.getPop());
         recorder.setHighscore(Math.max(recorder.getHighscore(), game.getPop()));
     }
 
